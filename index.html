@@ -1,32 +1,64 @@
 <!doctype html> 
 <html>
+        <link rel="stylesheet" type="text/css" href="style.css">
+<!--topo da pagina-->
+<header>
     <head>
+        <style>
+        table{
+            width: 500px;
+            height: 300px;
+        }
+        th{
+            background-color: #363636;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        td{
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background-color: #a8a8a8;
+        
+        }
+        tr:nth-child(odd){
+            background-color: #c5e244;
+        }
+
+        .background1{
+            
+        }
+        </style>
+
         <title>
             Jurassic Park Saga
         </title>
     </head>
-    <style>
-        h1{
-            background-color: black;
-            color: white;
-            padding: 15px;
-            border-radius: 20px;
-            text-align: center;
-        }
-    </style>
-<body>
-   <div style="text-align: center;">
+</header>
+   <div>
+    <figure>
     <img src="jlogo.png">
+    </figure>
+<!--menu-->
+<nav>
+     <a href="https://www.google.com/search?client=opera-gx&q=filme+de+jurassic+park&sourceid=opera&ie=UTF-8&oe=UTF-8"> Filmes/</a>
+     <a href="https://www.google.com/search?q=premios+de+jurassic+park&client=opera-gx&hs=x34&sca_esv=cfc38f4587fd6d45&sca_upv=1&sxsrf=ADLYWIJe2-pPVFAlwGHvbEy3ksPBZTXFZg%3A1725655520363&ei=4GnbZsHfFf3T1sQPs_2hQA&ved=0ahUKEwjBz67il6-IAxX9qZUCHbN-CAgQ4dUDCA8&uact=5&oq=premios+de+jurassic+park&gs_lp=Egxnd3Mtd2l6LXNlcnAiGHByZW1pb3MgZGUganVyYXNzaWMgcGFyazIEEAAYHjIIEAAYgAQYogRI5QtQAFikCnAAeAGQAQCYAb8BoAH3CaoBAzAuN7gBA8gBAPgBAZgCBaACsgfCAgYQABgHGB7CAggQABgHGAgYHsICCBAAGAcYHhgPmAMAkgcDMC41oAejIg&sclient=gws-wiz-serp"> Prêmios/</a>
+     <a href="Formulário Aula.html"> Formulário/</a>
+     <a href="form.html">Login</a>
+</nav>
    </div>
-   <div style="text-align: center">
-   <a href="https://www.google.com/search?client=opera-gx&q=filme+de+jurassic+park&sourceid=opera&ie=UTF-8&oe=UTF-8"> Filmes/</a>
-   <a href="https://www.google.com/search?q=premios+de+jurassic+park&client=opera-gx&hs=x34&sca_esv=cfc38f4587fd6d45&sca_upv=1&sxsrf=ADLYWIJe2-pPVFAlwGHvbEy3ksPBZTXFZg%3A1725655520363&ei=4GnbZsHfFf3T1sQPs_2hQA&ved=0ahUKEwjBz67il6-IAxX9qZUCHbN-CAgQ4dUDCA8&uact=5&oq=premios+de+jurassic+park&gs_lp=Egxnd3Mtd2l6LXNlcnAiGHByZW1pb3MgZGUganVyYXNzaWMgcGFyazIEEAAYHjIIEAAYgAQYogRI5QtQAFikCnAAeAGQAQCYAb8BoAH3CaoBAzAuN7gBA8gBAPgBAZgCBaACsgfCAgYQABgHGB7CAggQABgHGAgYHsICCBAAGAcYHhgPmAMAkgcDMC41oAejIg&sclient=gws-wiz-serp"> Prêmios/</a>
-   <a href="Formulário Aula.html"> Formulário/</a>
-   <a href="form.html">Login</a>
-   </div>
-<h1> FILMES DA SAGA JURASSIC PARK</h1>
+<body>
+<!--conteudo-->
+<section>
+    <header>
+       <h1> FILMES DA SAGA JURASSIC PARK</h1>
+    </header>
+    <article>
+        <header>
 <h1> JURASSIC PARK: O PARQUE DOS DINOSSAUROS</h1>
-<p>
+        </header>
+<p style="float: left;">
     Jurassic Park (no Brasil, Jurassic Park: O Parque dos Dinossauros; em Portugal, Parque Jurássico) é um
 filme estadunidense de ficção científica e aventura dirigido por Steven Spielberg e baseado no livro
 homônimo escrito por Michael Crichton.
@@ -37,8 +69,8 @@ Mazzello, Samuel L. Jackson e Bob Peck. O filme é centrado na fictícia Isla Nu
 bilionário e uma pequena equipe de geneticistas criam um parque temático em uma ilha, onde as principais
 atrações são variadas espécies de dinossauros recriados através da engenharia genética.
 </p>
-<div>
-    <img src="j1.jpg">
+<div style="width: 2000px; height: 200px; color: aqua;">
+    <img src="j1.jpg"; style="border-color: rgb(255, 0, 0); border-style: solid; border-width: 5px;">
 </div>
 <h1>JURASSIC PARK: O O MUNDO PERDIDO</h1>
 <p>
@@ -82,62 +114,38 @@ Light & Magic (CGI) e pela Legacy FX (animatrônicos).[6]
     <img src="j4.jpg">
 </div>
 <h1> Prêmios</h1>
-<table border="1"; align="center">
+<table align="center">
     <tr>
-        <th>
-        <h3><b>Ano</b></h3>
-        </th>
-        <th>
-            <h3><b>Categoria</b></h3>
-        </th>
-        <th>
-            <h3><b>Resultado</b></h3>
-        </th>
+        <th>Ano</th>
+        <th>Categoria</th>
+        <th>Resultado</th>
     </tr>
     <tr>
-        <th>
-           1994
-        </th>
-        <th>
-            Melhor Filme
-        </th>
-        <th>
-            Venceu
-        </th>
+        <td>1994</td>
+        <td>Melhor filme</td>
+        <td>Venceu</td>
     </tr>
     <tr>
-        <th>
-            1994
-        </th>
-        <th>
-            Melhor Direção
-        </th>
-        <th>
-            Venceu
-        </th>
-    </tr><tr>
-        <th>
-            1994
-        </th>
-        <th>
-            Melhor Figurino
-        </th>
-        <th>
-            Indicado
-        </th>
-    </tr><tr>
-        <th>
-            1994
-        </th>
-        <th>
-            Melhor Escritor
-        </th>
-        <th>
-            Venceu
-        </th>
+        <td>1994</td>
+        <td>melhor direção</td>
+        <td>Venceu</td>
     </tr>
-</table>
-<br>
+    <tr>
+        <td>1994</td>
+        <td>Figutino</td>
+        <td>Indicado</td>
+    </tr>
+    <tr>
+        <td>1994</td>
+        <td>Melhor escritor</td>
+        <td>Venceu</td>
+    </tr>
+</table>        
+</article>
+</section>
+</body>
+<!--rodape-->
+<footer>
 <h4>JURASSIC PAGE: O seu canal de informações sobre Jurassic Park</h4>
-</body>    
+ </footer>
 </html>
