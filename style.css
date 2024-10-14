@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+table{
+    width: 500px;
+    height: 300px;
+}
+th{
+    background-color: #363636;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+td{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #a8a8a8;
+
+}
+tr:nth-child(odd){
+    background-color: #c5e244;
+}
+
+.background1{
+    background-color: rgb(27, 54, 36);
+}
+
+.divl{
+    width: 900px;
+    height: 200px;
+    background-image: url(jp_topoFundo.jpg);
+    margin: 0 auto ;
+    
+}
+.logoimg{
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+.menu{
+    width: 500px;
+    height: 40px;
+    background-image: url(jp_menuFundo.jpg);
+    position: relative;
+    top: -80px;
+    left: 325px;
+    border: 2px solid white;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    line-height: 40px;
+}
+.menulink,
+.separadorlink{
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menulink:hover{
+    text-decoration: underline;
+}
+.titulo{
+    width: 900px;
+    height: 100px;
+    background-color: rgb(88, 23, 23);
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+}
+.titulo2{
+    font-size: 30px;
+    color: white;
+}
+.filme1{
+    width: 900px;
+    height: 300px;
+    background-color: white;
+    margin: 0 auto;
+}
+.filmeimg1{
+    border: 5px solid red;
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.filmetitulo1{
+    position: relative;
+    top: 50px;
+    left: 90px;
+    margin: 0;
+}
+.conteudofilme1{
+    width: 750px;
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+.filme2{
+    width: 900px;
+    height: 300px;
+    background-color: gray;
+    margin: 0 auto;
+}
+.filmeimg2{
+    border: 5px solid yellow;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 40px;
+}
+.filmetitulo2{
+    position: relative;
+    color: white;
+    top: 50px;
+    left: 40px;
+    margin: 0;
+}
+.conteudofilme2{
+    width: 600px;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.premiosc{
+    width: 900px;
+    height: 400px;
+    background-image: url(jp_fundoSelva.jpg);
+    margin: 0 auto;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+.premiostitulo{
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    color: white;
+}
+.tabelap{
+    position: relative;
+    top: 80px;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+.rodape{
+    width: 900px;
+    height: 50px;
+    background-image: url(jp_topoFundo.jpg);
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.rodapetexto{
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+}
