@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="dino.css">
+
+    <title>Criador de Nome de Dinossauro</title>
+    <script>
+        function validarEGerarNome() {
+            // Capturando os valores dos campos
+            var primeiraSilabaNome = document.forms["form_dinossauro"].primeira_silaba_nome.value.trim();
+            var ultimaSilabaNome = document.forms["form_dinossauro"].ultima_silaba_nome.value.trim();
+            var primeiraSilabaSobrenome = document.forms["form_dinossauro"].primeira_silaba_sobrenome.value.trim();
+            var ultimaSilabaSobrenome = document.forms["form_dinossauro"].ultima_silaba_sobrenome.value.trim();
+
+
+            // Validação dos campos
+            if (primeiraSilabaNome === "") {
+                alert("O campo 'Primeira sílaba do nome' é obrigatório.");
+                return;
+            }
+            if (ultimaSilabaNome === "") {
+                alert("O campo 'Última sílaba do nome' é obrigatório.");
+                return;
+            }
+            if (primeiraSilabaSobrenome === "") {
+                alert("O campo 'Primeira sílaba do sobrenome' é obrigatório.");
+                return;
+            }
+            if (ultimaSilabaSobrenome === "") {
+                alert("O campo 'Última sílaba do sobrenome' é obrigatório.");
+                return;
+            }
+
+            // Confirmação da operação
+            if (!confirm("Você deseja gerar o nome do dinossauro?")) {
+                return;
+            }
+
+            // Gerando o nome do dinossauro
+            var nomeDinossauro = 
+                primeiraSilabaNome + 
+                ultimaSilabaSobrenome + 
+                primewiraSilabaSobrenome + 
+                ultimaSilabaNome + 
+                "sauro";
+
+            alert("O nome do seu dinossauro é: " + nomeDinossauro);
+        }
+    </script>
+</head>
+<body>
+    <div class="div1">
+    <h1>Criador de Nome de Dinossauro</h1>
+    <form method="get" action="?" name="form_dinossauro">
+        Primeira sílaba do nome:
+        <input type="text" name="primeira_silaba_nome"><br><br>
+
+        Última sílaba do nome:
+        <input type="text" name="ultima_silaba_nome"><br><br>
+
+        Primeira sílaba do sobrenome:
+        <input type="text" name="primeira_silaba_sobrenome"><br><br>
+
+        Última sílaba do sobrenome:
+        <input type="text" name="ultima_silaba_sobrenome"><br><br>
+
+        <input type="button" onclick="validarEGerarNome();" value="Criar meu nome de dinossauro">
+    </form>
+    </div>
+</body>
+</html>
+
+    </form>
+</body>
+</html>
