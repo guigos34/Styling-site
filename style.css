@@ -39,7 +39,7 @@ tr:nth-child(odd){
     left: 40px;
 }
 .menu{
-    width: 35%;
+    width: 700px;
     height: 40px;
     background-image: url(jp_menuFundo.jpg);
     position: relative;
