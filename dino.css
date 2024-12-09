@@ -1,0 +1,18 @@
+.div1{
+    background-color: rgb(16, 61, 46);
+    text-align: center;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}    
+form{
+    color: white;
+    position: relative;
+    top: 100px;
+    font-size: larger;
+}
+h1{
+    color: white;
+    position: relative;
+    top: 90px;
+}
