@@ -36,15 +36,15 @@ tr:nth-child(odd){
 .logoimg{
     position: relative;
     top: 20px;
-    left: 40px;
+    left: 20px;
 }
 .menu{
-    width: 500px;
+    width: 620px;
     height: 40px;
     background-image: url(jp_menuFundo.jpg);
     position: relative;
     top: -80px;
-    left: 350px;
+    left: 250px;
     border: 2px solid white;
     border-radius: 20px 0px 20px 0px;
     text-align: center;
